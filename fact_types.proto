@@ -1,0 +1,75 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message Fact1: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact2: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact3: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact4: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact5: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact6: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact7: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact8: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact9: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact10: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact11: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact12: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact13: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact14: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact15: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact16: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact17: NFactType.TFact
+{
+	required string Name = 1;
+}
+message Fact18: NFactType.TFact
+{
+	required string Name = 1;
+}
