@@ -1,1 +1,38 @@
+#encoding "utf-8"
 
+AN -> Adj<gnc-agr[1]> Noun<gnc-agr[1]>;
+S -> AN interp (Fact1.Name);
+PN -> Participle Noun;
+S -> PN interp (Fact2.Name::norm="nom,sg");
+ANN -> Adj Noun Noun;
+S -> ANN interp (Fact3.Name::norm="nom,sg");
+PNN -> Participle Noun Noun;
+S -> PNN interp (Fact4.Name::norm="nom,sg");
+NAN -> Noun Adj Noun;
+S -> NAN interp (Fact5.Name::norm="nom,sg");
+NPN -> Noun Participle Noun;
+S -> NPN interp (Fact6.Name::norm="nom,sg");
+NPAN -> Noun Prep Adj Noun;
+S -> NPAN interp (Fact7.Name::norm="nom,sg");
+NPPN -> Noun Prep Participle Noun;
+S -> NPPN interp (Fact8.Name::norm="nom,sg");
+NPRN -> Noun Prep Noun;
+S -> NPRN interp (Fact9.Name::norm="nom,sg");
+NPNN -> Noun Prep Noun Noun;
+S -> NPNN interp (Fact10.Name::norm="nom,sg");
+NNPN -> Noun Noun Prep Noun;
+S -> NNPN interp (Fact11.Name::norm="nom,sg");
+NN -> Noun Noun;
+S -> NN interp (Fact12.Name::norm="nom,sg");
+NNN -> Noun Noun Noun;
+S -> NNN interp (Fact13.Name::norm="nom,sg");
+NNNN -> Noun Noun Noun Noun;
+S -> NNNN interp (Fact14.Name::norm="nom,sg");
+AAN -> Adj<gnc-agr[1]> Adj<gnc-agr[1]> Noun<gnc-agr[1]>;
+S -> AAN interp (Fact15.Name::not_norm);
+APN -> Adj Participle Noun;
+S -> APN interp (Fact16.Name::norm="nom,sg");
+PAN -> Participle Adj Noun;
+S -> PAN interp (Fact17.Name::norm="nom,sg");
+PPN -> Participle Participle Noun;
+S -> PPN interp (Fact18.Name::norm="nom,sg");
