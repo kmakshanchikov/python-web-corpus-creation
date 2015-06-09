@@ -1,0 +1,38 @@
+encoding "utf8";
+
+TTextMinerConfig {
+	Dictionary = "dic.gzt"
+	
+//	Input = {File = "input.txt"}
+	
+	Output = {
+				Format = xml;
+			}
+	
+	Articles = [
+			{Name = "первая_грамматика"}
+			]
+	
+	Facts = [
+			{Name = "Fact1"},
+			{Name = "Fact2"},
+			{Name = "Fact3"},
+			{Name = "Fact4"},
+			{Name = "Fact5"},
+			{Name = "Fact6"},
+			{Name = "Fact7"},
+			{Name = "Fact8"},
+			{Name = "Fact9"},
+			{Name = "Fact10"},
+			{Name = "Fact11"},
+			{Name = "Fact12"},
+			{Name = "Fact13"},
+			{Name = "Fact14"},
+			{Name = "Fact15"},
+			{Name = "Fact16"},
+			{Name = "Fact17"},
+			{Name = "Fact18"}
+			]
+	
+//	PrettyOutput = "pretty.html"
+}
